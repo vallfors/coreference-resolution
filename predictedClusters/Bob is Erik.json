@@ -1,0 +1,12 @@
+{
+    "name": "Bob is Erik",
+    "type": "clusters",
+    "clusters": {
+        "0": [
+            0
+        ],
+        "1": [
+            1
+        ]
+    }
+}

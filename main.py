@@ -50,7 +50,7 @@ def run_small():
     evaluator.evaluate(model_dt)
 
 def run_big():
-    training_data = generate_training_data("./data/GUM_tsv/trainingandval/*.tsv")
+    training_data = generate_training_data("./data/GUM_tsv/training/*.tsv")
 
     num_features = training_data[0][0][0][0][1].shape[0]
     random1 = random_data(
